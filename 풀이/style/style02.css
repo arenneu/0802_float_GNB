@@ -37,13 +37,13 @@ div#wrap {
   border: 1px solid #000;
 }
 
-header#header {
+/* header#header {
   border: 1px solid #000;
-}
+} */
 
-nav#gnb {
+/* nav#gnb {
   border: 2px solid #f80;
-}
+} */
 
 /* guide line 끝 */
 
@@ -54,7 +54,7 @@ div#wrap {
 }
 
 div#headerLogo {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   width: 200px;
   height: 100px;
   line-height: 100px;
@@ -67,7 +67,7 @@ nav#gnb {
   width: 960px;
   height: 100px;
   padding-left: 330px;
-  padding-top: 58px;
+  padding-top: 60px;
 
   float: right;
 }
@@ -125,10 +125,10 @@ div#subMenuBGFrame {
 }
 
 div#subMenuBG {
-  border: 1px solid #a58686;
+  /* border: 1px solid #a58686; */
   background-color: #a58686;
-  height: 160px;
-  width: 1178px;
+  height: 170px;
+  width: 1170px;
 
   position: absolute;
   display: none;
