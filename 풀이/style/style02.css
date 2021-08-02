@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/* reset 시작 */
+
+* {
+  color: #333;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: #444;
+}
+a:visited {
+  color: #333;
+}
+a:hover {
+  color: #555;
+}
+a:active {
+  color: #444;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+/* guide line 시작 */
+
+div#wrap {
+  border: 1px solid #000;
+}
+
+header#header {
+  border: 1px solid #000;
+}
+
+nav#gnb {
+  border: 2px solid #f80;
+}
+
+/* guide line 끝 */
+
+div#wrap {
+  width: 1200px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+div#headerLogo {
+  border: 1px solid #000;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+
+  float: left;
+}
+
+nav#gnb {
+  width: 960px;
+  height: 100px;
+  padding-left: 330px;
+  padding-top: 58px;
+
+  float: right;
+}
+
+#gnb ul#mainMenu {
+  width: 620px;
+}
+
+#gnb ul#mainMenu > li.mainLi {
+  float: left;
+}
+
+#gnb a {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #fff;
+  /* border: 1px solid #aaa; */
+  display: inline-block;
+}
+
+#gnb .subMenu {
+  position: absolute;
+  display: none;
+  z-index: 2;
+}
+
+/* 하이라이트 효과 */
+
+#gnb .mainLi:hover > a {
+  color: #fff;
+  font-weight: bold;
+  background-color: #a58686;
+}
+
+#gnb .subLi a {
+  color: #fff;
+  background-color: #a58686;
+}
+
+#gnb .subLi a:hover {
+  font-weight: bold;
+  color: #a58686;
+  background-color: #fff;
+}
+
+/* 하이라이트 효과 */
+
+/* div#subMenuBG 시작 */
+
+div#subMenuBGFrame {
+  position: relative;
+  clear: both;
+}
+
+div#subMenuBG {
+  border: 1px solid #a58686;
+  background-color: #a58686;
+  height: 160px;
+  width: 1178px;
+
+  position: absolute;
+  display: none;
+}
+
+/* div#subMenuBG 끝 */

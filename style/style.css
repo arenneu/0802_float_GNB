@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* reset 시작 */
+
+* {
+  color: #333;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: #444;
+}
+a:visited {
+  color: #333;
+}
+a:hover {
+  color: #555;
+}
+a:active {
+  color: #444;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+/* guide line 시작 */
+
+div#wrap {
+  border: 1px solid #000;
+}
+
+header#header {
+  border: 1px solid #000;
+}
+
+nav#gnb {
+  border: 1px solid #00f;
+}
+
+/* guide line 끝 */
+
+/* reset 끝 */
+
+div#wrap {
+  width: 1200px;
+  border: 1px solid #aaa;
+  margin: 0 auto;
+}
+
+header#header {
+  height: 100px;
+}
+
+div#headerLogo {
+  border: 1px solid #000;
+  float: left;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+}
+
+nav#gnb {
+  padding-top: 62px;
+  float: right;
+  width: 900px;
+  display: inline;
+}
+
+ul#mainMenu > li.mainLi {
+  float: right;
+}
+
+ul#mainMenu li.mainLi a {
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+ul.subMenu {
+  border: 1px solid #000;
+}
+
+ul#mainMenu li.mainLi:hover > a {
+  color: #fff;
+  background-color: #8d5a69;
+  font-weight: bold;
+}
+
+ul.subMenu a:hover {
+  color: #fff;
+  background-color: #8d5a69;
+}
